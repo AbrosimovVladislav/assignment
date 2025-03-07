@@ -1,9 +1,13 @@
-import {Button} from "@/components/ui/button";
+import SearchArea from "@/components/gallery/searchArea";
+import FilterArea from "@/components/gallery/filterArea";
+import GalleryArea from "@/components/gallery/galleryArea";
 
 export default function Home() {
     return (
         <div className="">
-            <Button variant="destructive">Destructive</Button>
+            <SearchArea/>
+            <FilterArea/>
+            <GalleryArea/>
         </div>
     );
 }
